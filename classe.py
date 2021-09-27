@@ -164,12 +164,9 @@ class RedeSocial():
         return print(f"Não foi possível encontrar um caminho entre {usuario_interessado} e {usuario_alvo} na Rede Social.")
 
 ####
-
-instaMau = RedeSocial()
-instaMau.adicionar_usuario_arquivo("usuarios.csv")
-instaMau.criar_lista_conexoes("conexoes.csv")
-instaMau.contar_seguidores("isis3")
-instaMau.contar_seguidos("isis3")
-instaMau.lista_stories("isis3")
-instaMau.distancia_conexao("isis3", "helena42")
-instaMau.top_influencers(5)
+dlm = RedeSocial()dlm.adicionar_usuario_arquivo("usuarios.csv")
+dlm.criar_lista_conexoes("conexoes.csv")
+dlm.contar_seguidores("isis3")
+#dlm.contar_seguidos("isis3")dlm.lista_stories("miguel1")
+dlm.distancia_conexao("isis3", "eloa17")
+dlm.top_influencers(15)
